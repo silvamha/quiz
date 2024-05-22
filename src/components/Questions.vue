@@ -1,8 +1,13 @@
 <template>
   <div class="questions-ctr">
     <div class="progress">
-      <div class="bar" :style="{ width: `${(questionsAnswered / questions.length) * 100}%` }"></div>
-      <div class="status">{{ questionsAnswered }} out of {{questions.length}} questions answered</div>
+      <div
+        class="bar"
+        :style="{ width: `${(questionsAnswered / questions.length) * 100}%` }"
+      ></div>
+      <div class="status">
+        {{ questionAnswered }} out of {{ questions.length }} questions answered
+      </div>
     </div>
     <div
       class="single-question"
@@ -20,7 +25,7 @@
           :key="answer.text"
           @click.prevent="selectAnswer(answer.is_correct)"
         >
-          {{ answer.text }}
+          {{ answer.text  }}
         </div>
         <!-- <div class="answer">Sample Answer 2</div>
                 <div class="answer">Sample Answer 3</div>
