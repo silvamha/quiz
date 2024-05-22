@@ -1,3 +1,54 @@
+/**
+ * @file App.vue
+ * @description The main component of the quiz application.
+ * @module App
+ */
+
+/**
+ * The main Vue component for the quiz application.
+ *
+ * @name App
+ * @component
+ */
+export default {
+  name: "App",
+  components: {
+    Questions,
+    Result,
+  },
+  data() {
+    return {
+      questionsAnswered: 0,
+      totalCorrect: 0,
+      questions: [
+        // Array of quiz questions
+      ],
+      results: [
+        // Array of result ranges and descriptions
+      ],
+    };
+  },
+  methods: {
+    /**
+     * Handles the event when a question is answered.
+     *
+     * @param {boolean} is_correct - Indicates if the answer is correct.
+     */
+    questionAnswered(is_correct) {
+      if (is_correct) {
+        this.totalCorrect++;
+      }
+      this.questionsAnswered++;
+    },
+    /**
+     * Resets the quiz by setting the answered questions count and total correct count to zero.
+     */
+    reset() {
+      this.questionsAnswered = 0;
+      this.totalCorrect = 0;
+    },
+  },
+};
 <template>
   <div class="ctr">
     <transition name="fade" mode="out-in">

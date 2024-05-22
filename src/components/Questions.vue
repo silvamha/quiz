@@ -1,3 +1,14 @@
+/**
+ * Component: Questions
+ * Description: This component displays a set of questions and their corresponding answers.
+ * Props:
+ *   - questions: An array of objects representing the questions and their answers.
+ *   - questionsAnswered: The number of questions that have been answered.
+ * Emits:
+ *   - question-answered: Event emitted when a question is answered. Passes a boolean value indicating whether the answer is correct.
+ * Methods:
+ *   - selectAnswer: Method called when an answer is selected. Emits the "question-answered" event.
+ */
 <template>
   <div class="questions-ctr">
     <div class="progress">
