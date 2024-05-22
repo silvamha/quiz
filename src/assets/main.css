@@ -1,6 +1,19 @@
+/**
+ * This CSS file contains styles for the main layout and components of a quiz application.
+ */
+
+/* Global Styles */
+
+/**
+ * Applies box-sizing: border-box to all elements, ensuring that padding and border are included in the element's total width and height.
+ */
 * {
   box-sizing: border-box;
 }
+
+/**
+ * Sets the base font size and font family for the entire document.
+ */
 body {
   font-size: 20px;
   font-family: sans-serif;
@@ -8,6 +21,11 @@ body {
   background: #e6ecf1;
 }
 
+/* Layout Styles */
+
+/**
+ * Centers the container element horizontally and sets its maximum width to 600px.
+ */
 .ctr {
   margin: 0 auto;
   max-width: 600px;
@@ -15,10 +33,20 @@ body {
   box-sizing: border-box;
   position: relative;
 }
+
+/**
+ * Sets the width of the questions container to 100% and positions it relative to its parent.
+ */
 .questions-ctr {
   position: relative;
   width: 100%;
 }
+
+/* Question Styles */
+
+/**
+ * Styles the question element, setting its width, padding, font size, font weight, text alignment, background color, and text color.
+ */
 .question {
   width: 100%;
   padding: 20px;
@@ -29,10 +57,20 @@ body {
   color: #fff;
   box-sizing: border-box;
 }
+
+/**
+ * Styles the single question element, setting its width and position relative to its parent.
+ */
 .single-question {
   position: relative;
   width: 100%;
 }
+
+/* Answer Styles */
+
+/**
+ * Styles the answer element, setting its border, padding, font size, width, background color, and transition.
+ */
 .answer {
   border: 1px solid #8e959f;
   padding: 20px;
@@ -41,23 +79,41 @@ body {
   background-color: #fff;
   transition: 0.2s linear all;
 }
+
+/**
+ * Styles the span element within an answer element, setting its display, margin, font size, and font style.
+ */
 .answer span {
   display: inline-block;
   margin-left: 5px;
   font-size: 0.75em;
   font-style: italic;
 }
+
+/* Progress Styles */
+
+/**
+ * Styles the progress element, setting its height, margin top, background color, and position relative to its parent.
+ */
 .progress {
   height: 50px;
   margin-top: 10px;
   background-color: #ddd;
   position: relative;
 }
+
+/**
+ * Styles the bar element within a progress element, setting its height, background color, and transition.
+ */
 .bar {
   height: 50px;
   background-color: #ff6372;
   transition: all 0.3s linear;
 }
+
+/**
+ * Styles the status element within a progress element, setting its position, top, left, text alignment, color, and width.
+ */
 .status {
   position: absolute;
   top: 15px;
@@ -66,15 +122,30 @@ body {
   color: #fff;
   width: 100%;
 }
+
+/* Interactive Styles */
+
+/**
+ * Styles the answer element that is not yet answered, setting its cursor to pointer.
+ */
 .answer:not(.is-answered) {
   cursor: pointer;
 }
+
+/**
+ * Styles the answer element that is not yet answered on hover, setting its background color, border color, and text color.
+ */
 .answer:not(.is-answered):hover {
   background-color: #8ce200;
   border-color: #8ce200;
   color: #fff;
 }
 
+/* Title Styles */
+
+/**
+ * Styles the title element, setting its width, padding, font size, font weight, text alignment, background color, and text color.
+ */
 .title {
   width: 100%;
   padding: 20px;
@@ -85,6 +156,12 @@ body {
   color: #fff;
   box-sizing: border-box;
 }
+
+/* Description Styles */
+
+/**
+ * Styles the description element, setting its border, padding, font size, width, background color, and transition.
+ */
 .desc {
   border: 1px solid #8e959f;
   padding: 20px;
@@ -94,34 +171,62 @@ body {
   transition: 0.4s linear all;
   text-align: center;
 }
+
+/* Animation Styles */
+
+/**
+ * Styles the enter animation for fading in an element, setting its initial opacity to 0.
+ */
 .fade-enter {
   opacity: 0;
 }
+
+/**
+ * Styles the active enter animation for fading in an element, setting the transition duration and easing.
+ */
 .fade-enter-active {
   transition: all 0.3s linear;
 }
+
+/**
+ * Styles the active leave animation for fading out an element, setting the transition duration, easing, opacity, and position.
+ */
 .fade-leave-active {
   transition: all 0.3s linear;
   opacity: 0;
   position: absolute;
 }
 
+/* Button Styles */
+
+/**
+ * Styles the reset button element, setting its background color, border, font size, text color, padding, margin, and display.
+ */
 .reset-btn {
   background-color: #ff6372;
-    border: 0;
-    font-size: 22px;
-    color: #fff;
-    padding: 10px 25px;
-    margin: 10px auto;
-    display: block;
+  border: 0;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px 25px;
+  margin: 10px auto;
+  display: block;
 }
 
-.result{ 
-  width: 100%;
-}
-
-
-.reset-btn:active, .reset-btn:focus, .reset-btn:hover{
+/**
+ * Styles the active, focused, and hovered states of the reset button element, removing the border and outline.
+ */
+.reset-btn:active,
+.reset-btn:focus,
+.reset-btn:hover {
   border: 0;
   outline: 0;
+}
+
+/* Result Styles */
+
+/**
+ * Styles the result element, setting its width to 100%.
+ */
+.result {
+  width: 100%;
 }
