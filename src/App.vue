@@ -59,7 +59,9 @@ export default {
         @question-answered="questionAnswered"
       />
 
-      <result v-else :results="results" :totalCorrect="totalCorrect" />
+      <result v-else 
+      :results="results" 
+      :totalCorrect="totalCorrect" />
     </transition>
 
     <button
