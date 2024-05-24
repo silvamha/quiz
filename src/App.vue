@@ -61,6 +61,7 @@ export default {
 
       <result v-else 
       :results="results" 
+      
       :totalCorrect="totalCorrect" />
     </transition>
 
