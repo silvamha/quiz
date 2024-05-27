@@ -1,12 +1,16 @@
 <template>
-    <div>
-<ul>
-    <li></li>
-</ul>
-    </div>
+
 </template>
 
-<script setup>
+<script>
+export default {
+    name: "Header",
+    data() {
+        return {
+            name:"Joe"
+        }
+    }
+}
 
 </script>
 
