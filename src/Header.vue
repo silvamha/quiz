@@ -4,8 +4,10 @@
     </div>
 </template>
 
-<script setup>
-
+<script>
+export default {
+    name: "Header"
+}
 </script>
 
 <style lang="scss" scoped>
