@@ -1,4 +1,7 @@
 <template>
+    <nav>
+        <h1>Header</h1>
+    </nav>
     <div>
 <p>This is the header</p>
     </div>
