@@ -6,6 +6,11 @@
 <p>This is the header</p>
     </div>
     <div>
+        <ul>
+            <li>Home</li>
+        </ul>
+    </div>
+    <div>
         <p>This is the header</p>
     </div>
 </template>
