@@ -5,6 +5,9 @@
     <div>
 <p>This is the header</p>
     </div>
+    <div>
+        <p>This is the header</p>
+    </div>
 </template>
 
 <script>
