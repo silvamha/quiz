@@ -12,6 +12,15 @@
             <li>Contact</li>
             <li>Login</li>
         </ul>
+        u
+    </div>
+    <div>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Login</li>  
+        </ul>
     </div>
     <div>
         <p>This is the header</p>
