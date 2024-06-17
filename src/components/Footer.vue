@@ -8,6 +8,7 @@
         </footer>
     </div>
 </template>
+<!-- src/components/Footer.vue -->
 
 <script setup>
 
