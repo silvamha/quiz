@@ -8,6 +8,7 @@
     <div>
         <footer>
             <h1>Footer</h1>
+            <!-- Add more content as needed -->
         </footer>
     </div>
 </template>
