@@ -13,6 +13,7 @@
     </div>
 </template>
 <!-- src/components/Footer.vue -->
+ <!-- Add more content as needed -->
 
 <script setup>
 
