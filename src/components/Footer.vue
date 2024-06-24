@@ -13,9 +13,7 @@
         </footer>
     </div>
 </template>
-<!-- src/components/Footer.vue -->
- <!-- Add more content as needed -->
-  <!-- Add more content as needed -->
+
 
 <script setup>
 
