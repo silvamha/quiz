@@ -10,6 +10,7 @@
             <h1>Footer</h1>
             <!-- Add more content as needed -->
              <!-- Add more content as needed -->
+              <!-- Add more content as needed -->
         </footer>
     </div>
 </template>
