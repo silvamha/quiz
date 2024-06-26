@@ -11,6 +11,7 @@
             <!-- Add more content as needed -->
              <!-- Add more content as needed -->
               <!-- Add more content as needed -->
+               <!-- Add more content as needed -->
         </footer>
     </div>
 </template>
