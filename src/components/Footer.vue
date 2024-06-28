@@ -9,7 +9,7 @@
         <footer>
             <h1>Footer</h1>
             <!-- Add more content as needed -->
- 
+            <p>&copy; 2023 Your Company. All rights reserved.</p>
         </footer>
     </div>
 </template>
