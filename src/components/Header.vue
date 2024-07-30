@@ -12,6 +12,7 @@
             <button>Signup</button>
         </div>
     </nav>
+    <!-- Add more content as needed -->
 </header>
     </div>
 </template>
